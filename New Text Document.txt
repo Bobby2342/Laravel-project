@@ -1,0 +1,12 @@
+composer create-project laravel/laravel App-Name
+composer require laravel/ui
+php artisan ui bootstrap --auth
+
+
+=> git clone https://github.com/roshan2052/E-commerce.git
+=> Run composer install
+=> Run cp .env.example .env
+=> Open your .env file and change the database name (DB_DATABASE) to whatever you have
+=> Run php artisan key:generate
+=> Run php artisan migrate
+=> Run php artisan serve
